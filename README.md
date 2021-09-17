@@ -2,7 +2,7 @@
 
 ## Mostrar un listado de transacciones
 
-- [] Inluciur contador
+- [] Mostrar una cabecera con el contador de transacciones
 - [] Una div para cada tranasacción
 - [] mostrar los ingressos en verde y los gastos en rojo
 - [] mostrar un balance total
