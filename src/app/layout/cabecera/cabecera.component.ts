@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-cabecera',
   templateUrl: './cabecera.component.html',
@@ -7,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CabeceraComponent implements OnInit {
   public empresa = 'INDRA';
-
   constructor() { }
 
   ngOnInit(): void {

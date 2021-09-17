@@ -1,17 +1,8 @@
+
 <app-cabecera></app-cabecera>
-<app-titulo></app-titulo>
 
-<h3> Hay {{ transacciones.length }} transacciones en el ejercicio </h3>
 
-<div *ngFor="let transaccion of transacciones">
-  <span [ngClass]="{ 'spent': transaccion.kind=='spent', 'income': transaccion.kind=='income' }">
-    {{ transaccion.name }} - {{ transaccion.amount }}
-  </span>
-</div>
-
-<div>
-  <p>Balance Total: {{ balance() }}</p>
-</div>
 
 <router-outlet></router-outlet>
-<app-pie></app-pie>
+
+<app-pie class="mt-auto"></app-pie>

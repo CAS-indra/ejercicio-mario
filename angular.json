@@ -1,12 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "99c5236f-0cc0-4bdf-b26d-817571fb75d4"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ejercicio-juanan": {
+    "ejercicio-hectorg": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ejercicio-juanan",
+            "outputPath": "dist/ejercicio-hectorg",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -75,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ejercicio-juanan:build:production"
+              "browserTarget": "ejercicio-hectorg:build:production"
             },
             "development": {
-              "browserTarget": "ejercicio-juanan:build:development"
+              "browserTarget": "ejercicio-hectorg:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ejercicio-juanan:build"
+            "browserTarget": "ejercicio-hectorg:build"
           }
         },
         "test": {
@@ -110,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "ejercicio-juanan"
+  "defaultProject": "ejercicio-hectorg"
 }
